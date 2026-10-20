@@ -1,7 +1,7 @@
 # Coffee Recipes 
 
 ## Preview
-![Coffee Recipes website screenshot](images/coffee-recipes.png)
+![Coffee Recipes website screenshot](images/CoffeeRecipesProject.png)
 
 ## About the Project
 
