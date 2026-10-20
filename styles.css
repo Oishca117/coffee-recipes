@@ -1,0 +1,144 @@
+ body {
+     margin: 0;
+     min-height: 100vh;
+     display: flex;
+     justify-content: flex-start;
+     align-items: stretch;
+     flex-direction: column;
+     /* A vibrant gradient background makes the glass pop */
+     background: #FDFBD4;
+ }
+
+ .header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .intro {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .disclaimer {
+     color: red;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .drink-card {
+     border: black solid 1px;
+     border-radius: 20px;
+     box-sizing: border-box;
+     width: 15%;
+     padding: 20px;
+ }
+
+ .glass {
+     width: 75%;
+     height: 200px;
+     padding: 0;
+     color: white;
+     /* Glassmorphism Styles */
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(12px);
+     -webkit-backdrop-filter: blur(12px);
+     border-radius: 20px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+     box-sizing: border-box;
+     margin-inline: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: center;
+ }
+
+ .drink-name {
+     font-size: .90rem;
+     margin-top: 25px;
+     white-space: nowrap;
+ }
+
+ .divider {
+     height: 4px;
+     width: 100%;
+     background: linear-gradient(to right,
+             transparent 0%,
+             #b1aaa5 50%,
+             transparent 100%);
+     margin-top: 15px;
+ }
+
+ .card-text {
+     text-align: center;
+ }
+
+ .description {
+     font-size: 12px;
+     white-space: wrap;
+ }
+
+ .ingredients {
+     font-size: 12px;
+ }
+
+ .specs {
+     font-size: 12px;
+ }
+
+ .layers {
+     width: 95%;
+     height: 180px;
+     display: flex;
+     flex-direction: column-reverse;
+     justify-content: flex-start;
+     padding-bottom: 2px;
+     box-sizing: border-box;
+     overflow: hidden;
+     border-radius: 20px;
+ }
+
+ .menu {
+     display: flex;
+     gap: 20px;
+     padding: 20px;
+     box-sizing: border-box;
+     justify-content: center;
+     width: 100%;
+ }
+
+ .mainContent {
+     max-width: 1200px;
+     width: 100%;
+     margin-inline: auto;
+ }
+
+ .introduction {
+     flex-shrink: 0;
+ }
+
+ .layer-label {
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     opacity: 30%;
+     color: black;
+     text-transform: capitalize;
+ }
+
+ .espresso .layer-label {
+     color: white;
+ }
+
+ .crema,
+ .espresso,
+ .water,
+ .milk,
+ .foam {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
